@@ -264,19 +264,19 @@ namespace OnlineCourseEnrollment
         public static void DefaultData()
         {
             // create user objects
-            User user1 = new("Ravichandran", 30, Gender.Male, "ME", "9938388333", "ravi@gmail.com");
-            User user2 = new("Priyadharshin", 25, Gender.Female, "BE", "9944444455", "priya@gmail.com");
+            User user1 = new("Star Lord", 30, Gender.Male, "ME", "9938388333", "star@gmail.com");
+            User user2 = new("Gamora", 25, Gender.Female, "BE", "9944444455", "gamora@gmail.com");
 
             // add user objects to users list
             users.Add(user1);
             users.Add(user2);
 
             // create course objects
-            Course course1 = new("C#", "Baskaran", 5, 0);
-            Course course2 = new("HTML", "Ravi", 2, 5);
-            Course course3 = new("CSS", "Priyadharshini", 2, 3);
-            Course course4 = new("JS", "Baskaran", 3, 1);
-            Course course5 = new("TS", "Ravi", 1, 2);
+            Course course1 = new("C#", "Star Lord", 5, 0);
+            Course course2 = new("HTML", "Gamora", 2, 5);
+            Course course3 = new("CSS", "Tony Star", 2, 3);
+            Course course4 = new("JS", "Peter Parker", 3, 1);
+            Course course5 = new("TS", "Thanos", 1, 2);
 
             // add course objects to courses list
             courses.Add(course1);
